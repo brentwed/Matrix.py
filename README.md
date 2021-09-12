@@ -68,7 +68,7 @@ Now let's sum another matrix to the instance using the `sum()` method:
 ## Subtract
 Now let's subtract another matrix to the instance using the `minus()` method:
 ```python
->>> y = x.sum([3, 2, 1])
+>>> y = x.minus([3, 2, 1])
 # [1, 2, 3] - [3, 2, 1] = [-2, 0, 2]
 
 >>> print(y.matrix)

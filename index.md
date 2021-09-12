@@ -136,7 +136,7 @@ Returns a new Matrix which is the cofactor matrix of the instance. Take a look a
 ## `adjugate()`
 Returns a new Matrix which is the adjugate of the instance. The adjugate of a matrix is equivalent to the cofactor matrix transposed:
 
-<p align="center"><img src="https://latex.codecogs.com/gif.latex?Adj(a) = Cof(a)^T" /></p>
+![adjugate-formula](https://latex.codecogs.com/gif.latex?Adj(a)=Cof(a)^T)
 
 E.g:
 ```python
@@ -153,7 +153,7 @@ E.g:
 ## `inverse()`
 Returns a new Matrix which is the inverse matrix of the instance. It uses the adjugate matrix method, according to the formula:
 
-<p align="center"><img src="https://latex.codecogs.com/gif.latex?a^{-1} = {Adj(a) \over |a|}" /></p>
+![inverse-formula]https://latex.codecogs.com/gif.latex?a^{-1} = {Adj(a) \over |a|})
 
 If the matrix doesn't have inverse, `(determinant == 0)`, it returns a new Matrix filled with `nan`:
 

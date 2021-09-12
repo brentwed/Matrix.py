@@ -229,7 +229,7 @@ Returns `True` if matrix is vertical rectangular, else returns `False`, E.g:
 
 &nbsp;
 
-<img src="https://latex.codecogs.com/gif.latex?\begin{pmatrix}1 & 2 \\3 & 4 \\5 & 6\end{pmatrix}" />
+![vertica-rectangular-matrix](https://latex.codecogs.com/gif.latex?\begin{pmatrix}1 & 2 \\3 & 4 \\5 & 6\end{pmatrix})
 
 &nbsp;
 
@@ -251,7 +251,7 @@ Returns `True` if matrix is horizontal rectangular, else returns `False`, E.g:
 
 &nbsp;
 
-<img src="https://latex.codecogs.com/gif.latex?\begin{pmatrix}1 & 2 & 3 \\4 & 5 & 6\end{pmatrix}" />
+![horizontal-rectangular-matrix](https://latex.codecogs.com/gif.latex?\begin{pmatrix}1 & 2 & 3 \\4 & 5 & 6\end{pmatrix})
 
 &nbsp;
 
@@ -273,7 +273,7 @@ Returns True if matrix is equal to its transpose, else returns False, E.g:
 
 &nbsp;
 
-<img src="https://latex.codecogs.com/gif.latex?\begin{pmatrix}1 & 1 & -1 \\1 & -3 & -4 \\ -1 & -4 & 0\end{pmatrix} = \begin{pmatrix}1 & 1 & -1 \\1 & -3 & -4 \\ -1 & -4 & 0\end{pmatrix}^T" />
+![symmetric-matrix](https://latex.codecogs.com/gif.latex?\begin{pmatrix}1 & 1 & -1 \\1 & -3 & -4 \\ -1 & -4 & 0\end{pmatrix} = \begin{pmatrix}1 & 1 & -1 \\1 & -3 & -4 \\ -1 & -4 & 0\end{pmatrix}^T)
 
 &nbsp;
 
@@ -292,7 +292,7 @@ Returns True if matrix is equal to the opposite of its transpose, else returns F
 
 &nbsp;
 
-<img src="https://latex.codecogs.com/gif.latex?\begin{pmatrix}0 & 1 & -1 \\-1 & 0 & 4 \\ 1 & -4 & 0\end{pmatrix} = -1 \times \begin{pmatrix}0 & 1 & -1 \\-1 & 0 & 4 \\ 1 & -4 & 0\end{pmatrix}^T" />
+![antisymmetric-matrix](https://latex.codecogs.com/gif.latex?\begin{pmatrix}0&1&-1\\-1&0&4\\1&-4&0\end{pmatrix}=-1\times\begin{pmatrix}0&1&-1\\-1&0&4\\1&-4&0\end{pmatrix}^T)
 
 &nbsp;
 
@@ -311,7 +311,7 @@ Returns True if the inverse of a Matrix is equal to the transpose of the matrix,
 
 &nbsp;
 
-<img src="https://latex.codecogs.com/gif.latex?\begin{pmatrix}-1 & 0\\0 & 1\end{pmatrix}^{-1} = \begin{pmatrix}-1 & 0\\0 & 1\end{pmatrix}^T" />
+![orthogonal-matrix](https://latex.codecogs.com/gif.latex?\begin{pmatrix}-1&0\\0&1\end{pmatrix}^{-1}=\begin{pmatrix}-1&0\\0&1\end{pmatrix}^T)
 
 &nbsp;
 

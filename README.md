@@ -8,7 +8,7 @@
 ---
 A **Python** library that allows you to make algebraic operations with **1D and 2D arrays**
 
-Clear and complete [**documentation and tests**](https://github.com/AlexSp3/matrix.py/wiki). *This ReadMe doesn't include the full list of functions of the library*.
+Clear and complete [**documentation and tests**](https://github.com/AlexSp3/matrix.py/wiki).
 
 ## Description
 * Work with vectors and matrixes in an easy way.
@@ -17,6 +17,29 @@ Clear and complete [**documentation and tests**](https://github.com/AlexSp3/matr
 * Get the **determinant** and the **range** of a matrix.
 * Little more than **11kb**.
 * No dependencies.
+
+## Allowed methods:
+* [`sum()`](https://github.com/AlexSp3/Matrix.py/wiki/#sum)
+* [`minus()`](https://github.com/AlexSp3/Matrix.py/wiki/#minus)
+* [`multiply()`](https://github.com/AlexSp3/Matrix.py/wiki/#multiply)
+* [`num_multiply()`](https://github.com/AlexSp3/Matrix.py/wiki/#num_multiply)
+* [`num_divide()`](https://github.com/AlexSp3/Matrix.py/wiki/#num_divide)
+* [`negate()`](https://github.com/AlexSp3/Matrix.py/wiki/#negate)
+* [`determinant()`](https://github.com/AlexSp3/Matrix.py/wiki/#determinant)
+* [`transpose()`](https://github.com/AlexSp3/Matrix.py/wiki/#transpose)
+* [`cofactor()`](https://github.com/AlexSp3/Matrix.py/wiki/#cofactor)
+* [`adjugate()`](https://github.com/AlexSp3/Matrix.py/wiki/#adjugate)
+* [`inverse()`](https://github.com/AlexSp3/Matrix.py/wiki/#inverse)
+* [`row_reduction()`](https://github.com/AlexSp3/Matrix.py/wiki/#row_reduction)
+* [`range()`](https://github.com/AlexSp3/Matrix.py/wiki/#range)
+* [`clone()`](https://github.com/AlexSp3/Matrix.py/wiki/#clone)
+* [`is_squared()`](https://github.com/AlexSp3/Matrix.py/wiki/#is_squared)
+* [`is_vertical_rect()`](https://github.com/AlexSp3/Matrix.py/wiki/#is_vertical_rect)
+* [`is_horizontal_rect()`](https://github.com/AlexSp3/Matrix.py/wiki/#is_horizontal_rect)
+* [`is_symmetric()`](https://github.com/AlexSp3/Matrix.py/wiki/#is_symmetric)
+* [`is_antisymmetric()`](https://github.com/AlexSp3/Matrix.py/wiki/#is_antisymmetric)
+* [`is_orthogonal()`](https://github.com/AlexSp3/Matrix.py/wiki/#is_orthogonal)
+* [`identity()` (static)](https://github.com/AlexSp3/Matrix.py/wiki/#identity-static)
 
 ## Usage
 Create and print a Matrix

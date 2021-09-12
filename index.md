@@ -2,7 +2,7 @@
 ---
 
 ## Import library
-```Python
+```python
 >>> import matrix
 ```
 ## Create a Matrix instance

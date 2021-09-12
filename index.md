@@ -7,7 +7,7 @@
 ```
 ## Create a Matrix instance
 You only need to pass as parameter the **1D** or **2D** matrix which you want to work:
-```Python
+```python
 >>> import matrix
 
 # Create instance
@@ -17,7 +17,7 @@ You only need to pass as parameter the **1D** or **2D** matrix which you want to
 *Matrix* are immutable. You cannot modify the instance once it was created.
 ## Print instance
 The `matrix` property store the matrix value.
-```Python
+```python
 >>> x = Matrix([1, 2, 3])
 >>> y = Matrix([[1, 0, 0], [0, 1, 0], [0, 0, 1]])
 
@@ -136,7 +136,7 @@ Returns a new Matrix which is the cofactor matrix of the instance. Take a look a
 ## adjugate()
 Returns a new Matrix which is the adjugate of the instance. The adjugate of a matrix is equivalent to the cofactor matrix transposed:
 
-![image](https://user-images.githubusercontent.com/37636391/132969654-ac04d74d-017a-470a-8e18-b5032713421f.png?style=centerme)
+![image](https://user-images.githubusercontent.com/37636391/132969654-ac04d74d-017a-470a-8e18-b5032713421f.png)
 
 E.g:
 ```python
@@ -153,7 +153,7 @@ E.g:
 ## inverse()
 Returns a new Matrix which is the inverse matrix of the instance. It uses the adjugate matrix method, according to the formula:
 
-![image](https://user-images.githubusercontent.com/37636391/132969645-fd6db6c0-c3cf-4277-a64b-9b694514cb7c.png?style=centerme)
+![image](https://user-images.githubusercontent.com/37636391/132969645-fd6db6c0-c3cf-4277-a64b-9b694514cb7c.png)
 
 If the matrix doesn't have inverse, `(determinant == 0)`, it returns a new Matrix filled with `nan`:
 

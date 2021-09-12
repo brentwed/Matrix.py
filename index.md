@@ -227,11 +227,7 @@ True
 ## `is_vertical_rect()`
 Returns `True` if matrix is vertical rectangular, else returns `False`, E.g:
 
-&nbsp;
-
-![vertica-rectangular-matrix](https://latex.codecogs.com/gif.latex?\begin{pmatrix}1 & 2 \\3 & 4 \\5 & 6\end{pmatrix})
-
-&nbsp;
+![image](https://user-images.githubusercontent.com/37636391/132969557-e664090d-353d-4dfa-8319-f29507c1d06b.png)
 
 In *Matrix.py*:
 ```python
@@ -249,11 +245,7 @@ False
 ## `is_horizontal_rect()`
 Returns `True` if matrix is horizontal rectangular, else returns `False`, E.g:
 
-&nbsp;
-
-![horizontal-rectangular-matrix](https://latex.codecogs.com/gif.latex?\begin{pmatrix}1 & 2 & 3 \\4 & 5 & 6\end{pmatrix})
-
-&nbsp;
+![image](https://user-images.githubusercontent.com/37636391/132969562-859bc086-6d25-42c6-ae8f-489bcd232935.png)
 
 In *Matrix.py*:
 ```python
@@ -271,11 +263,7 @@ False
 ## `is_symmetric()`
 Returns True if matrix is equal to its transpose, else returns False, E.g:
 
-&nbsp;
-
-![symmetric-matrix](https://latex.codecogs.com/gif.latex?\begin{pmatrix}1 & 1 & -1 \\1 & -3 & -4 \\ -1 & -4 & 0\end{pmatrix} = \begin{pmatrix}1 & 1 & -1 \\1 & -3 & -4 \\ -1 & -4 & 0\end{pmatrix}^T)
-
-&nbsp;
+![image](https://user-images.githubusercontent.com/37636391/132969563-398af3a0-c650-4377-a8ae-5d968dab43d3.png)
 
 In *Matrix.py*:
 ```python
@@ -290,11 +278,7 @@ True
 ## `is_antisymmetric()`
 Returns True if matrix is equal to the opposite of its transpose, else returns False, E.g:
 
-&nbsp;
-
-![antisymmetric-matrix](https://latex.codecogs.com/gif.latex?\begin{pmatrix}0&1&-1\\-1&0&4\\1&-4&0\end{pmatrix}=-1\times\begin{pmatrix}0&1&-1\\-1&0&4\\1&-4&0\end{pmatrix}^T)
-
-&nbsp;
+![image](https://user-images.githubusercontent.com/37636391/132969565-6926eced-c8e2-4214-8667-43fdc6e1a3de.png)
 
 In *Matrix.py*:
 ```python
@@ -309,11 +293,7 @@ True
 ## `is_orthogonal()`
 Returns True if the inverse of a Matrix is equal to the transpose of the matrix, E.g.:
 
-&nbsp;
-
-![orthogonal-matrix](https://latex.codecogs.com/gif.latex?\begin{pmatrix}-1&0\\0&1\end{pmatrix}^{-1}=\begin{pmatrix}-1&0\\0&1\end{pmatrix}^T)
-
-&nbsp;
+![image](https://user-images.githubusercontent.com/37636391/132969566-10ba92da-2cd2-4202-a8f6-0e900c955773.png)
 
 In *Matrix.py*:
 ```python

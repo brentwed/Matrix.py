@@ -41,7 +41,7 @@ Clear and complete [**documentation and tests**](https://github.com/AlexSp3/matr
 * [`is_orthogonal()`](https://github.com/AlexSp3/Matrix.py/wiki/#is_orthogonal)
 * [`identity()` (static)](https://github.com/AlexSp3/Matrix.py/wiki/#identity-static)
 
-## Usage
+# Usage
 Create and print a Matrix
 ```python
 >>> import matrix
@@ -56,7 +56,7 @@ Create and print a Matrix
 >>> print(y.matrix)
 [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
 ```
-### Sum
+## Sum
 Now let's sum another matrix to the instance using the `sum()` method:
 ```python
 >>> y = x.sum([3, 2, 1])
@@ -65,7 +65,7 @@ Now let's sum another matrix to the instance using the `sum()` method:
 >>> print(y.matrix)
 [[4, 4, 4]]
 ```
-### Subtract
+## Subtract
 Now let's subtract another matrix to the instance using the `minus()` method:
 ```python
 >>> y = x.sum([3, 2, 1])
@@ -74,7 +74,7 @@ Now let's subtract another matrix to the instance using the `minus()` method:
 >>> print(y.matrix)
 [[-2, 0, 2]]
 ```
-### Multiply
+## Multiply
 Example of how to multiply matrixes using the `multiply()` method. Remember that some multiply operations between matrixes are incompatible because of their sizes.
 ```python
 >>> x = Matrix([1, 2, 3])

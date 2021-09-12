@@ -153,7 +153,7 @@ E.g:
 ## `inverse()`
 Returns a new Matrix which is the inverse matrix of the instance. It uses the adjugate matrix method, according to the formula:
 
-![inverse-formula]https://latex.codecogs.com/gif.latex?a^{-1} = {Adj(a) \over |a|})
+![inverse-formula](https://latex.codecogs.com/gif.latex?a^{-1}={Adj(a)\over|a|})
 
 If the matrix doesn't have inverse, `(determinant == 0)`, it returns a new Matrix filled with `nan`:
 
